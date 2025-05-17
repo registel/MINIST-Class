@@ -7,7 +7,17 @@ import plotly.graph_objects as go
 import os
 
 # Etiquetas de Fashion MNIST
-CLASS_NAMES = ['Bag','Pullover','Angle boot','Coat','Trouser','Sneaker','Dress','Sandal','Shirt','T-shirt']
+#CLASS_NAMES = ['Bag','Pullover','Angle boot','Coat','Trouser','Sneaker','Dress','Sandal','Shirt','T-shirt']
+CLASS_NAMES = ['Dress',
+ 'Angle boot',
+ 'T-shirt',
+ 'Sandal',
+ 'Trouser',
+ 'Shirt',
+ 'Pullover',
+ 'Coat',
+ 'Bag',
+ 'Sneaker']
 st.set_page_config(layout="wide")
 st.title("Clasificador Fashion MNIST con modelo de aprendizaje precargado")
 
